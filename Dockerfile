@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 
-EXPOSE 5001
+EXPOSE 5051
 
 
-ENTRYPOINT ["dotnet", "IAMMETER.Central.Web.dll", "--urls", "http://*:5001"]
+ENTRYPOINT ["dotnet", "IAMMETER.Central.Web.dll", "--urls", "http://*:5051"]
